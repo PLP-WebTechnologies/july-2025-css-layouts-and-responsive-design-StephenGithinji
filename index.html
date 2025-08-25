@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouts Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Grid Container -->
+    <div class="page-grid">
+        
+        <!-- Header Section -->
+        <header class="header">
+            <h1>CSS Layouts & Responsive Design</h1>
+            <p>Demonstrating Flexbox and Grid Layouts</p>
+        </header>
+
+        <!-- Navigation Bar using Flexbox -->
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#grid">Grid</a></li>
+                <li><a href="#responsive">Responsive</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Flexbox Demo Section -->
+            <section id="flexbox">
+                <h2>Flexbox Layout Example</h2>
+                <p>This section demonstrates Flexbox for 1-dimensional layouts:</p>
+                
+                <!-- Flexbox Cards Container -->
+                <div class="flex-cards">
+                    <div class="card">
+                        <h3>Card 1</h3>
+                        <p>Flexbox is great for arranging items in a single dimension (row or column).</p>
+                    </div>
+                    <div class="card">
+                        <h3>Card 2</h3>
+                        <p>It provides excellent control over alignment and distribution of space.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Card 3</h3>
+                        <p>Cards automatically adjust their size and wrap to new lines when needed.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Grid Demo Section -->
+            <section id="grid">
+                <h2>CSS Grid Layout Example</h2>
+                <p>This section demonstrates CSS Grid for 2-dimensional layouts:</p>
+                
+                <!-- Grid Items Container -->
+                <div class="grid-container">
+                    <div class="grid-item item-1">Grid Item 1</div>
+                    <div class="grid-item item-2">Grid Item 2</div>
+                    <div class="grid-item item-3">Grid Item 3</div>
+                    <div class="grid-item item-4">Grid Item 4</div>
+                    <div class="grid-item item-5">Grid Item 5</div>
+                    <div class="grid-item item-6">Grid Item 6</div>
+                </div>
+            </section>
+
+            <!-- Responsive Demo Section -->
+            <section id="responsive">
+                <h2>Responsive Design Features</h2>
+                <p>This layout adapts to different screen sizes:</p>
+                <ul>
+                    <li><strong>Desktop:</strong> Three-column grid layout with sidebar</li>
+                    <li><strong>Tablet:</strong> Two-column layout, navigation adjusts</li>
+                    <li><strong>Mobile:</strong> Single-column layout, vertical navigation</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Sidebar Content</h3>
+            <div class="sidebar-widget">
+                <h4>Layout Techniques</h4>
+                <ul>
+                    <li>CSS Grid for page structure</li>
+                    <li>Flexbox for components</li>
+                    <li>Media queries for responsiveness</li>
+                    <li>Relative units (rem, %, vw)</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h4>Breakpoints Used</h4>
+                <ul>
+                    <li>Mobile: 480px and below</li>
+                    <li>Tablet: 768px and below</li>
+                    <li>Desktop: 769px and above</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 CSS Layouts Assignment</p>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
